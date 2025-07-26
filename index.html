@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#ffffff">
+  <title>TitanMix</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <img src="logo.jpeg" alt="TitanMix Logo" style="width:150px; display:block; margin:auto;"/>
+  <h1>Bienvenido a TitanMix</h1>
+  <form id="formulario">
+    <label>ID del lote: <input type="text" id="loteId" required></label><br>
+    <label>Resistencia: <input type="text" id="resistencia" required></label><br>
+    <label>Medida:
+      <select id="medida">
+        <option value="cm">cm</option>
+        <option value="in">in</option>
+      </select>
+    </label><br>
+    <button type="submit">Guardar</button>
+  </form>
+  <h2>Datos guardados</h2>
+  <ul id="listaDatos"></ul>
+
+  <script src="main.js"></script>
+</body>
+</html>

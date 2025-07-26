@@ -1,0 +1,13 @@
+{
+  "name": "TitanMix",
+  "short_name": "TitanMix",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [{
+    "src": "logo.jpeg",
+    "sizes": "512x512",
+    "type": "image/jpeg"
+  }]
+}
