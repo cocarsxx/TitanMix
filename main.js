@@ -1,0 +1,1 @@
+console.log('TitanMix app iniciada');
